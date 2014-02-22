@@ -35,7 +35,7 @@ body{
 	display: inline-block;
 	width: 90px;
 	vertical-align: top;
-	height: 809px;
+	/*height: 809px;*/
 }
 
 	.box{
@@ -43,6 +43,8 @@ body{
 		margin-bottom: 5px;
 		text-align: center;
 		height: 100px;
+		width: 90px;
+		display: inline-block;
 	}
 
 		.box p{
@@ -68,7 +70,7 @@ body{
 		color: red;
 	}
 
-#col-1 .box, #col-2 .box{
+.blue_back{
 	background-color: rgb(104,155,255);
 }
 
@@ -76,12 +78,20 @@ body{
 	margin-left: 20px;
 }
 
-#col-3 .box, #col-4 .box, #col-5 .box, #col-6 .box, #col-7 .box, #col-8 .box, #col-9 .box, #col-10 .box, #col-11 .box, #col-12 .box{
+.red_back{
 	background-color: rgb(253,154,152);
 }
 
-#col-13 .box, #col-14 .box, #col-15 .box, #col-16 .box, #col-17 .box, #col-18 .box{
+.yellow_back{
 	background-color: rgb(254,203,0);
+}
+
+.green_back{
+	background-color: rgb(31,202,33);
+}
+
+.top_green{
+	margin-top: 40px;
 }
 
 .row1{
@@ -104,6 +114,10 @@ body{
 
 #bottom{
 	color: rgb(255,0,81);
+	display: inline-block;
+	position:absolute;
+	top:890px;
+	left:10px;
 }
 
 	#bottom p{
@@ -111,10 +125,14 @@ body{
 		margin-left: 60px;
 	}
 
+	#bottom #actinoids{
+		margin-top: 50px;
+	}
+
 	#bottom #lan_space{
-		margin-left: 100px;
+		margin-left: 90px;
 	}
 
 	#bottom #act_space{
-		margin-left: 108px;
+		margin-left: 98px;
 	}
