@@ -1,5 +1,6 @@
 body{
 	font-family: Arial;
+	width: 1800px;
 }
 
 #side{
@@ -24,6 +25,10 @@ body{
 
 	#side li{
 		height: 107px;
+	}
+
+	#side li:last-child{
+		height: 80px;
 	}
 
 .column{
@@ -71,8 +76,12 @@ body{
 	margin-left: 20px;
 }
 
-#col-3 .box, #col-4 .box{
+#col-3 .box, #col-4 .box, #col-5 .box, #col-6 .box, #col-7 .box, #col-8 .box, #col-9 .box, #col-10 .box, #col-11 .box, #col-12 .box{
 	background-color: rgb(253,154,152);
+}
+
+#col-13 .box, #col-14 .box, #col-15 .box, #col-16 .box, #col-17 .box, #col-18 .box{
+	background-color: rgb(254,203,0);
 }
 
 .row1{
@@ -92,3 +101,20 @@ body{
 	margin: 10px 0 0 0;
 	text-align: center;
 }
+
+#bottom{
+	color: rgb(255,0,81);
+}
+
+	#bottom p{
+		display: inline-block;
+		margin-left: 60px;
+	}
+
+	#bottom #lan_space{
+		margin-left: 100px;
+	}
+
+	#bottom #act_space{
+		margin-left: 108px;
+	}
